@@ -21,7 +21,7 @@ public class deleteProduct extends javax.swing.JFrame {
      * Creates new form deleteProduct
      */
     public deleteProduct() {
-        initComponents();
+        initComponents();this.setTitle("delete produt");
         getContentPane().setBackground(new Color(255,255,204)); 
     }
 
@@ -150,7 +150,6 @@ public class deleteProduct extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(885, 490, -1, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/WhatsApp Image 2024-08-01 at 20.58.12_310b51b4.jpg"))); // NOI18N
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -30, -1, -1));
 
@@ -212,7 +211,7 @@ public class deleteProduct extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        setVisible(false);
+        new home().setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed

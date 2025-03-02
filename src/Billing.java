@@ -34,7 +34,7 @@ public class Billing extends javax.swing.JFrame {
     public Billing() {
         initComponents();
         SimpleDateFormat dFormat = new SimpleDateFormat("dd-MM-yyyy");
-        Date date =new Date();
+        Date date =new Date();this.setTitle("Billing");
         jLabel4.setText(dFormat.format(date));
         DateTimeFormatter dtf= DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalDateTime now=LocalDateTime.now();
@@ -498,7 +498,7 @@ public class Billing extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        setVisible(false);
+        new home().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed

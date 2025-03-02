@@ -25,6 +25,8 @@ public class newBuyer extends javax.swing.JFrame {
         this.setLocationRelativeTo(null); // Center the JFrame on the screen
         //getContentPane().setBackground(Color.pink);
         getContentPane().setBackground(new Color(255,255,204)); 
+        this.setTitle("New Buyer Form");
+
         this.setVisible(true); // Make the JFrame visible
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
@@ -306,7 +308,7 @@ public class newBuyer extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:  
-          setVisible(false);
+          new home().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

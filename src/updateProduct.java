@@ -21,7 +21,7 @@ public class updateProduct extends javax.swing.JFrame {
      * Creates new form updateProduct
      */
     public updateProduct() {
-        initComponents();
+        initComponents();this.setTitle("Update product");
         getContentPane().setBackground(new Color(255,255,204));
     }
 

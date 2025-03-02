@@ -22,7 +22,7 @@ public class productDetails extends javax.swing.JFrame {
      * Creates new form productDetails
      */
     public productDetails() {
-        initComponents();
+        initComponents();this.setTitle("Product details");
     }
 
     /**

@@ -21,7 +21,7 @@ public class deleteBuyer extends javax.swing.JFrame {
      * Creates new form deleteBuyer
      */
     public deleteBuyer() {
-        initComponents();
+        initComponents();this.setTitle("Delete Buyer");
          getContentPane().setBackground(new Color(255,255,204));
     }
 
@@ -185,9 +185,10 @@ public class deleteBuyer extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 510, -1, -1));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/WhatsApp Image 2024-08-01 at 20.58.12_310b51b4.jpg"))); // NOI18N
+        jLabel9.setBackground(new java.awt.Color(102, 255, 255));
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Background.jpg"))); // NOI18N
         jLabel9.setText("jLabel9");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, -40, 1620, 960));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -253,7 +254,7 @@ public class deleteBuyer extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        setVisible(false);
+        new home().setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed

@@ -131,7 +131,6 @@ public class Login extends javax.swing.JFrame {
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, -150, -1, -1));
 
-        jButton3.setText("Change password");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);

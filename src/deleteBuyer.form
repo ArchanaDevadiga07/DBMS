@@ -348,14 +348,17 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="66" type="rgb"/>
+        </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/WhatsApp Image 2024-08-01 at 20.58.12_310b51b4.jpg"/>
+          <Image iconType="3" name="/Background.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel9"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="-10" y="-10" width="-1" height="-1"/>
+          <AbsoluteConstraints x="-1" y="-40" width="1620" height="960"/>
         </Constraint>
       </Constraints>
     </Component>

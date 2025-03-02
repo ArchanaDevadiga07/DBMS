@@ -20,7 +20,7 @@ public class newProduct extends javax.swing.JFrame {
      * Creates new form newProduct
      */
     public newProduct() {
-        initComponents();
+        initComponents();this.setTitle("New product");
         getContentPane().setBackground(new Color(255,255,204));
     }
 
@@ -201,6 +201,7 @@ public class newProduct extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        this.dispose();
         setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 

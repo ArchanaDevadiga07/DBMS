@@ -17,7 +17,7 @@ public class updateBuyer extends javax.swing.JFrame {
      * Creates new form updateBuyer
      */
     public updateBuyer() {
-        initComponents();
+        initComponents();this.setTitle("Update Buyer");
         getContentPane().setBackground(new Color(255,255,204));
     }
 
